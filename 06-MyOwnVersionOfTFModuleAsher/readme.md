@@ -1,3 +1,8 @@
+# the config for environment separation is in my confluence page
+
+https://asherl.atlassian.net/wiki/spaces/DF/pages/3801204/IAC+Framework
+
+
 # Git-Cheat-Sheet
 A cheat sheet for uncommon Git commands
 

@@ -67,6 +67,8 @@ resource "aws_instance" "mtc_node" {
       }
     )
   }
+
+  // this will not work since k3s is missing
   provisioner "local-exec" {
     when    = destroy
     command = "rm -f ${path.cwd}/../k3s-mtc_node-*"
