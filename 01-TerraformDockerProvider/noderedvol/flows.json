@@ -1,0 +1,118 @@
+[
+    {
+        "id": "049451499ec6432b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c3fe96c1869aaac3",
+        "type": "inject",
+        "z": "049451499ec6432b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 520,
+        "y": 180,
+        "wires": [
+            [
+                "797f4c3c9b083e19"
+            ]
+        ]
+    },
+    {
+        "id": "797f4c3c9b083e19",
+        "type": "debug",
+        "z": "049451499ec6432b",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c8941f2780c93102",
+        "type": "status",
+        "z": "049451499ec6432b",
+        "name": "",
+        "scope": null,
+        "x": 100,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d12a6398374ad395",
+        "type": "link in",
+        "z": "049451499ec6432b",
+        "name": "link in 1",
+        "links": [],
+        "x": 225,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a56c484c17ae6c67",
+        "type": "link call",
+        "z": "049451499ec6432b",
+        "name": "",
+        "links": [],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 530,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1608b62a315cec62",
+        "type": "link call",
+        "z": "049451499ec6432b",
+        "name": "",
+        "links": [],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 350,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "36dad065d2b50f41",
+        "type": "link out",
+        "z": "049451499ec6432b",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [],
+        "x": 625,
+        "y": 300,
+        "wires": []
+    }
+]
